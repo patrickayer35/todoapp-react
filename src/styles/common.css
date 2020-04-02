@@ -1,0 +1,17 @@
+/* reset default browser styles */
+* { padding: 0; margin: 0; }
+
+.todoApp { font-family: 'Bellota Text', cursive; text-align: center; margin: 20px auto; width: 400px; }
+
+    .todoApp__title { color: purple; }
+
+    .todoApp__input { display: flex; }
+        .todoApp__input input { font-size: 16px; width: 300px; padding: 10px; margin: 10px auto; }
+        .todoApp__input button { padding: 10px; margin: 10px auto; }
+
+    .todoList { list-style-type: none; text-align: left; width: 300px; margin: 10px auto; }
+        .todoList li { padding: 10px; background-color: rgb(255, 229, 0); border: 1px solid purple; }
+
+        .todoList__item--done { text-decoration: line-through; }
+    
+    .todoApp_status { display: flex; justify-content: space-evenly; width: 300px; font-family: 'Comic Neue', cursive; }
